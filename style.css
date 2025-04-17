@@ -1,0 +1,75 @@
+/* Basic styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header select {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section#intro {
+    background: #eee;
+    text-align: center;
+}
+
+section#about, section#cases {
+    background: #fff;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.court-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
